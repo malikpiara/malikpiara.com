@@ -2,9 +2,10 @@ body {
   width: 650px;
   padding-top: 40px;
   padding-left: 50px;
-  font-family: Roboto, Calibri, "Bitstream Vera Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.7px;
   color: #22639D;
-  background-color: #FFF3E1;
+  background-color: #F1F2FA;
 }
 
 @media screen and (max-width: 700px) {
@@ -17,12 +18,15 @@ body {
 
 li {
   margin-bottom: 5px;
+  display: inline;
+  margin-left: 10px;
 }
 
 a {
-  color: #FAB09A;
+  color: #479BF2;
+  transition: color 1s ease;
 }
 
-a:visited {
-  color: #C6B8BA;
+a:hover {
+  color: #030E2B;
 }
