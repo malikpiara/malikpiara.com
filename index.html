@@ -1,36 +1,53 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Malik Piara</title>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Malik Piara</title>
+      <link rel="stylesheet" href="index.css">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113474050-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113474050-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'UA-113474050-1');
-  </script>
+        gtag('config', 'UA-113474050-1');
+    </script>
 
+      <!-- Fullstory Script -->
+      <script>
+        window['_fs_debug'] = false;
+        window['_fs_host'] = 'fullstory.com';
+        window['_fs_org'] = 'ACRM4';
+        window['_fs_namespace'] = 'FS';
+        (function(m,n,e,t,l,o,g,y){
+          if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+          g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+          o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+          y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+          g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+        y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+        g.clearUserCookie=function(){};
+    })(window,document,window['_fs_namespace'],'script','user');
+    </script>
 
-  </head>
-  <body>
-   <p>Hello World! 👋</p>
-   <p>My name is Malik and I'm a tech entrepreneur in the making, deeply passionate about people & good design. Currently focused on my computer science undergrad and on my personal mission to empower young students worldwide to pursue their passion. <span style="font-weight:600;">#YouCanLearnAnything</span></p>
-   <p>Over the years, I collaborated with others in order to build a community from scratch and to organize several initiatives including 'Web Summit' satellite events focused on youth entrepreneurship and a design conference with +200 attendees.
-</p>
-   <ul>
-     <li><a href="https://dribbble.com/malikpiara">Dribbble</a></li>
-     <li><a href="http://facebook.com/malikpiara">Facebook</a></li>
-     <li><a href="https://github.com/malikpiara">Github</a></li>
-     <li><a href="http://instagram.com/malikpiara/">Instagram</a></li>
-     <li><a href="https://www.linkedin.com/in/malikpiara/">LinkedIn</a></li>
-     <li><a href="http://twitter.com/malikpiara">Twitter</a></li>
-   </ul>
-   <p>We're all humans. In the end of the day what really matters is meaningful connection & execution. Reach me at malikpiara[at]gmail.com, facebook or twitter! 🙌&ensp;🚀 </p>
-  </body>
-</html>
+    </head>
+    <body>
+     <p>Hello World! 👋</p>
+     <p>My name is Malik and I'm a tech entrepreneur in the making, deeply passionate about people & good design. Currently focused on my computer science undergrad and on my personal mission to empower young students worldwide to pursue their passion. <span style="font-weight:600;">#YouCanLearnAnything</span></p>
+     <p>Over the years, I collaborated with others in order to build a community from scratch and to organize several initiatives including 'Web Summit' satellite events focused on youth entrepreneurship and a design conference with +200 attendees.
+  </p>
+     <ul>
+       <li><a href="https://dribbble.com/malikpiara">Dribbble</a></li>
+       <li><a href="http://facebook.com/malikpiara">Facebook</a></li>
+       <li><a href="https://github.com/malikpiara">Github</a></li>
+       <li><a href="http://instagram.com/malikpiara/">Instagram</a></li>
+       <li><a href="https://www.linkedin.com/in/malikpiara/">LinkedIn</a></li>
+       <li><a href="http://twitter.com/malikpiara">Twitter</a></li>
+     </ul>
+     <p>We're all humans. In the end of the day what really matters is meaningful connection & execution. Reach me at malikpiara[at]gmail.com, facebook or twitter! 🙌&ensp;🚀 </p>
+    </body>
+  </html>
