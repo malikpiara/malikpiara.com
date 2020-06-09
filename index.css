@@ -4,8 +4,8 @@ body {
   padding-left: 50px;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.7px;
-  color: #22639D;
-  background-color: #F1F2FA;
+  color: #000;
+  background-color: #EEC9B9;
 }
 
 @media screen and (max-width: 700px) {
@@ -23,7 +23,7 @@ li {
 }
 
 a {
-  color: #479BF2;
+  color: #000;
   transition: color 1s ease;
 }
 
