@@ -4,8 +4,8 @@ body {
   padding-left: 50px;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.7px;
-  color: #000;
-  background-color: #EAD7D0;
+  color: #774c28;
+  background-color: #f7f0ed;
 }
 
 @media screen and (max-width: 700px) {
@@ -22,11 +22,10 @@ li {
   margin-left: 10px;
 }
 
-a {
-  color: #000;
-  transition: color 1s ease;
+p {
+  font-size: 18px;
 }
 
-a:hover {
-  color: #030E2B;
+a {
+  color: inherit;
 }
