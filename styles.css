@@ -114,11 +114,17 @@ h1 {
   height: 100%;
 }
 
+h2 {
+  font-weight: 600;
+  color: #613b1b;
+  font-size: 1.5rem;
+}
+
 .dark-mode {
   background-color: #15202b;
 }
 
-.dark-mode, .dark-mode li, .dark-mode a, .dark-mode h1 {
+.dark-mode, .dark-mode li, .dark-mode a, .dark-mode h1, .dark-mode h2 {
   color: #fff;
   transition: 1s;
 }
