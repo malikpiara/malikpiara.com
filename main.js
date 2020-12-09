@@ -28,5 +28,5 @@ document.querySelector('#disappear').onclick = function() {
 
 function getEmail() {
   let email = document.querySelector('#email').value;
-  alert('Hello, ' + email);
+  alert('Hello, ' + email + '. This section is currently under construction. Please come back later!');
 }
