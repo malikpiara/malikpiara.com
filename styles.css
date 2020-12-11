@@ -218,3 +218,11 @@ footer {
   opacity: 0.5;
   text-decoration: none;
 }
+
+::selection {
+  background-color: #774c2830;
+}
+
+.dark-mode ::selection {
+  background-color: #28a79d33;
+}
